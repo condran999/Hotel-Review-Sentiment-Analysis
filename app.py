@@ -8,7 +8,7 @@ Created on Wed Aug 25 15:30:04 2021
 import pandas as pd
 import numpy as np
 import re 
-#import nltk
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import spacy
