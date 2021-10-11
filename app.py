@@ -23,7 +23,6 @@ from sklearn.linear_model import LogisticRegression
 import streamlit as st
 from sklearn.feature_extraction.text import TfidfTransformer
 from scipy.sparse import coo_matrix
-nltk.download('stopwords')
 
 #Lemmatization
 wordnet=WordNetLemmatizer()
