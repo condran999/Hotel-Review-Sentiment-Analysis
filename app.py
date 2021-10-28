@@ -26,7 +26,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from scipy.sparse import coo_matrix
 import en_core_web_sm
 
-!python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_sm
 
 #Lemmatization
 wordnet=WordNetLemmatizer()
