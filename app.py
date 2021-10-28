@@ -25,6 +25,8 @@ import streamlit as st
 from sklearn.feature_extraction.text import TfidfTransformer
 from scipy.sparse import coo_matrix
 from spacy.lang.en import English
+import en_core_web_sm
+
 
 #Lemmatization
 wordnet=WordNetLemmatizer()
