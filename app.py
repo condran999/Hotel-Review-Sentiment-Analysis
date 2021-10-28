@@ -79,7 +79,7 @@ def Prediction(corpus):
     review = review.split()
 
     # Applying Lemmitization for the words eg: Argument -> Argue - Using Spacy Library
-    review = nlp(' '.join(review))
+    review = spacy.load("en_core_web_sm")(' '.join(review))
     review = [token.lemma_ for token in review]
 
     # Removal of stop words
