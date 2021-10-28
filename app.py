@@ -25,6 +25,7 @@ import streamlit as st
 from sklearn.feature_extraction.text import TfidfTransformer
 from scipy.sparse import coo_matrix
 from spacy.lang.en import English
+from spacy_streamlit import visualize_ner
 import en_core_web_sm
 
 
