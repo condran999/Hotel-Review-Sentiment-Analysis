@@ -8,6 +8,6 @@ scipy==1.6.2
 imbalanced_learn==0.8.0
 imblearn==0.0
 scikit_learn==1.0
-en-core-web-sm==3.0.0
+
 
 
