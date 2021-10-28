@@ -25,8 +25,8 @@ import streamlit as st
 from sklearn.feature_extraction.text import TfidfTransformer
 from scipy.sparse import coo_matrix
 from spacy.lang.en import English
-import en_core_web_sm
-spacy.load("en_core_web_sm")
+# import en_core_web_sm
+# spacy.load("en_core_web_sm")
 
 
 #Lemmatization
@@ -35,7 +35,7 @@ wordnet=WordNetLemmatizer()
 #Stop word
 stop_words=stopwords.words('english')
 
-nlp=spacy.load("en_core_web_sm")
+nlp=["en_core_web_sm"]
 
 # Varibale created for words which are not included in the stopwords
 not_stopwords = ("aren", "aren't", "couldn", "couldn't", "didn", "didn't",
