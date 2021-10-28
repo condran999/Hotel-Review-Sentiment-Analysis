@@ -32,7 +32,7 @@ wordnet=WordNetLemmatizer()
 #Stop word
 stop_words=stopwords.words('english')
 
-nlp=spacy.load('en_core_web_sm')
+nlp=spacy.load("en_core_web_sm")
 
 # Varibale created for words which are not included in the stopwords
 not_stopwords = ("aren", "aren't", "couldn", "couldn't", "didn", "didn't",
