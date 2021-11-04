@@ -1,6 +1,6 @@
 numpy==1.19.5
 xlrd<2.0
-nltk==3.6.1
+nltk>=3.6.4
 spacy>=3.0.0,<4.0.0
 pandas==1.2.4
 streamlit
