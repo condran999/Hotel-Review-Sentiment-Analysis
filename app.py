@@ -8,10 +8,10 @@ Created on Wed Aug 25 15:30:04 2021
 import pandas as pd
 import numpy as np
 import re 
-import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+import nltk
 import spacy
 from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import train_test_split
