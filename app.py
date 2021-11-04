@@ -9,8 +9,8 @@ import pandas as pd
 import numpy as np
 import re 
 nltk.download('stopwords')
-stop_words=stopwords.words('english')
 from nltk.corpus import stopwords
+stop_words=stopwords.words('english')
 from nltk.stem import WordNetLemmatizer
 import nltk
 import spacy
