@@ -1,11 +1,11 @@
 numpy==1.19.5
 xlrd<2.0
 nltk>=3.6.4
-spacy>=3.0.0,<4.0.0
+spacy>=2.2.0,<3.0.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
 pandas==1.2.4
 streamlit
 scipy==1.6.2
 imbalanced_learn==0.8.0
 imblearn==0.0
 scikit_learn==1.0
-
