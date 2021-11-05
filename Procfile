@@ -1,1 +1,1 @@
-echo PORT $PORT web: gunicorn sh setup.sh && streamlit run --server.port $PORT app.py
+web: gunicorn sh setup.sh && streamlit run --server.port $PORT app.py
