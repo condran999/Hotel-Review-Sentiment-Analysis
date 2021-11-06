@@ -8,7 +8,7 @@ Created on Wed Aug 25 15:30:04 2021
 import pandas as pd
 import numpy as np
 import re 
-nltk.download('stopwords')
+# nltk.download('stopwords')
 from nltk.corpus import stopwords
 stop_words=stopwords.words('english')
 from nltk.stem import WordNetLemmatizer
@@ -34,7 +34,7 @@ from spacy.lang.en import English
 wordnet=WordNetLemmatizer()
 
 #Stop word
-#stop_words=stopwords.words('english')
+stop_words=stopwords.words('english')
 
 nlp=spacy.load("en_core_web_sm")
 
